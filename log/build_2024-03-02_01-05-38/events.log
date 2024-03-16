@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.009631] (hand_tracking_pkg) JobQueued: {'identifier': 'hand_tracking_pkg', 'dependencies': OrderedDict()}
+[0.009891] (hand_tracking_pkg) JobStarted: {'identifier': 'hand_tracking_pkg'}
+[0.101371] (-) TimerEvent: {}
+[0.207678] (-) TimerEvent: {}
+[0.313547] (-) TimerEvent: {}
+[0.418625] (-) TimerEvent: {}
+[0.524048] (-) TimerEvent: {}
+[0.625056] (-) TimerEvent: {}
+[0.731874] (-) TimerEvent: {}
+[0.835931] (-) TimerEvent: {}
+[0.942599] (-) TimerEvent: {}
+[1.046535] (-) TimerEvent: {}
+[1.146970] (-) TimerEvent: {}
+[1.248679] (-) TimerEvent: {}
+[1.350994] (-) TimerEvent: {}
+[1.455080] (-) TimerEvent: {}
+[1.556049] (-) TimerEvent: {}
+[1.670140] (-) TimerEvent: {}
+[1.770716] (-) TimerEvent: {}
+[1.872785] (-) TimerEvent: {}
+[1.979336] (-) TimerEvent: {}
+[2.086216] (-) TimerEvent: {}
+[2.188868] (-) TimerEvent: {}
+[2.289368] (-) TimerEvent: {}
+[2.398130] (-) TimerEvent: {}
+[2.505658] (-) TimerEvent: {}
+[2.618550] (-) TimerEvent: {}
+[2.728051] (-) TimerEvent: {}
+[2.829351] (-) TimerEvent: {}
+[2.930757] (-) TimerEvent: {}
+[3.039415] (-) TimerEvent: {}
+[3.146751] (-) TimerEvent: {}
+[3.252199] (-) TimerEvent: {}
+[3.354603] (-) TimerEvent: {}
+[3.459990] (-) TimerEvent: {}
+[3.563042] (-) TimerEvent: {}
+[3.663434] (-) TimerEvent: {}
+[3.769265] (-) TimerEvent: {}
+[3.876272] (-) TimerEvent: {}
+[3.983395] (-) TimerEvent: {}
+[4.089575] (-) TimerEvent: {}
+[4.190069] (-) TimerEvent: {}
+[4.296806] (-) TimerEvent: {}
+[4.398714] (-) TimerEvent: {}
+[4.506282] (-) TimerEvent: {}
+[4.611134] (-) TimerEvent: {}
+[4.714014] (-) TimerEvent: {}
+[4.815680] (-) TimerEvent: {}
+[4.918186] (-) TimerEvent: {}
+[5.020289] (-) TimerEvent: {}
+[5.123911] (-) TimerEvent: {}
+[5.234223] (-) TimerEvent: {}
+[5.342489] (-) TimerEvent: {}
+[5.447503] (-) TimerEvent: {}
+[5.557926] (-) TimerEvent: {}
+[5.658339] (-) TimerEvent: {}
+[5.759752] (-) TimerEvent: {}
+[5.861874] (-) TimerEvent: {}
+[5.967620] (-) TimerEvent: {}
+[6.070813] (-) TimerEvent: {}
+[6.182560] (-) TimerEvent: {}
+[6.283640] (-) TimerEvent: {}
+[6.390649] (-) TimerEvent: {}
+[6.480593] (hand_tracking_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/hand_tracking_pkg', 'build', '--build-base', '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/build', 'install', '--record', '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log', '--install-scripts', '$base/lib/hand_tracking_pkg', '--single-version-externally-managed'], 'cwd': '/home/yangjunseok/hand_tracking_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'yangjunseok', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1156', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yangjunseok/gcamp_ros2_ws/install/turtlesim/lib:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/yangjunseok', 'OLDPWD': '/home/yangjunseok', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '829', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/yangjunseok/gcamp_ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'yangjunseok', 'JOURNAL_STREAM': '8:32464', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yangjunseok', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/yangjunseok-VirtualBox:@/tmp/.ICE-unix/1208,unix/yangjunseok-VirtualBox:/tmp/.ICE-unix/1208', 'INVOCATION_ID': '08c9f20fed9e48a49efd93be7157535d', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8bcc0114_eb16_46b6_9e86_98b28a4445a9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.128', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yangjunseok/gcamp_ros2_ws/install/turtlesim:/home/yangjunseok/gcamp_ros2_ws/install/py_topic_pkg:/home/yangjunseok/gcamp_ros2_ws/install/py_service_pkg:/home/yangjunseok/gcamp_ros2_ws/install/py_first_pkg:/home/yangjunseok/gcamp_ros2_ws/install/py_action_pkg:/home/yangjunseok/gcamp_ros2_ws/install/gcamp_gazebo:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_action_pkg:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces:/home/yangjunseok/gcamp_ros2_ws/install/cpp_topic_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_tutorial:/home/yangjunseok/gcamp_ros2_ws/install/cpp_param_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/prefix_override:/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/yangjunseok/gcamp_ros2_ws/install/turtlesim:/home/yangjunseok/gcamp_ros2_ws/install/gcamp_gazebo:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_action_pkg:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces:/home/yangjunseok/gcamp_ros2_ws/install/cpp_topic_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_tutorial:/home/yangjunseok/gcamp_ros2_ws/install/cpp_param_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_first_pkg'}, 'shell': False}
+[6.493489] (-) TimerEvent: {}
+[6.605968] (-) TimerEvent: {}
+[6.710157] (-) TimerEvent: {}
+[6.817658] (-) TimerEvent: {}
+[6.919082] (-) TimerEvent: {}
+[7.019506] (-) TimerEvent: {}
+[7.124882] (-) TimerEvent: {}
+[7.230961] (-) TimerEvent: {}
+[7.337958] (-) TimerEvent: {}
+[7.438456] (-) TimerEvent: {}
+[7.544039] (-) TimerEvent: {}
+[7.645361] (-) TimerEvent: {}
+[7.749874] (-) TimerEvent: {}
+[7.853222] (-) TimerEvent: {}
+[7.954197] (-) TimerEvent: {}
+[8.065984] (-) TimerEvent: {}
+[8.167409] (-) TimerEvent: {}
+[8.273057] (-) TimerEvent: {}
+[8.374393] (-) TimerEvent: {}
+[8.478819] (-) TimerEvent: {}
+[8.589952] (-) TimerEvent: {}
+[8.650691] (hand_tracking_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.660008] (hand_tracking_pkg) StdoutLine: {'line': b'writing build/hand_tracking_pkg/hand_tracking_pkg.egg-info/PKG-INFO\n'}
+[8.660976] (hand_tracking_pkg) StdoutLine: {'line': b'writing dependency_links to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/dependency_links.txt\n'}
+[8.662689] (hand_tracking_pkg) StdoutLine: {'line': b'writing entry points to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/entry_points.txt\n'}
+[8.666462] (hand_tracking_pkg) StdoutLine: {'line': b'writing requirements to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/requires.txt\n'}
+[8.669197] (hand_tracking_pkg) StdoutLine: {'line': b'writing top-level names to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/top_level.txt\n'}
+[8.694120] (-) TimerEvent: {}
+[8.806361] (-) TimerEvent: {}
+[8.914758] (-) TimerEvent: {}
+[8.997884] (hand_tracking_pkg) StdoutLine: {'line': b"reading manifest file 'build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'\n"}
+[9.005563] (hand_tracking_pkg) StdoutLine: {'line': b"writing manifest file 'build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'\n"}
+[9.006873] (hand_tracking_pkg) StdoutLine: {'line': b'running build\n'}
+[9.014141] (hand_tracking_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.014751] (-) TimerEvent: {}
+[9.019077] (hand_tracking_pkg) StdoutLine: {'line': b'running install\n'}
+[9.032126] (hand_tracking_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.046277] (hand_tracking_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.057668] (hand_tracking_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.069947] (hand_tracking_pkg) StdoutLine: {'line': b"removing '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.074951] (hand_tracking_pkg) StdoutLine: {'line': b'Copying build/hand_tracking_pkg/hand_tracking_pkg.egg-info to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info\n'}
+[9.082019] (hand_tracking_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.115849] (-) TimerEvent: {}
+[9.210556] (hand_tracking_pkg) StdoutLine: {'line': b'Installing hand_tracking_node script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg\n'}
+[9.211459] (hand_tracking_pkg) StdoutLine: {'line': b'Installing img_publisher script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg\n'}
+[9.214465] (hand_tracking_pkg) StdoutLine: {'line': b'Installing img_subscriber script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg\n'}
+[9.217697] (-) TimerEvent: {}
+[9.222275] (hand_tracking_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log'\n"}
+[9.318380] (-) TimerEvent: {}
+[9.373005] (hand_tracking_pkg) CommandEnded: {'returncode': 0}
+[9.418836] (-) TimerEvent: {}
+[9.525095] (-) TimerEvent: {}
+[9.535613] (hand_tracking_pkg) JobEnded: {'identifier': 'hand_tracking_pkg', 'rc': 0}
+[9.542811] (-) EventReactorShutdown: {}

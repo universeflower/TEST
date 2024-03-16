@@ -1,0 +1,23 @@
+[1.602s] Invoking command in '/home/yangjunseok/hand_tracking_pkg': PYTHONPATH=/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/prefix_override:/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hand_tracking_pkg build --build-base /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/build install --record /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed
+[2.201s] running egg_info
+[2.203s] writing build/hand_tracking_pkg/hand_tracking_pkg.egg-info/PKG-INFO
+[2.204s] writing dependency_links to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/dependency_links.txt
+[2.205s] writing entry points to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/entry_points.txt
+[2.206s] writing requirements to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/requires.txt
+[2.207s] writing top-level names to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/top_level.txt
+[2.303s] reading manifest file 'build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'
+[2.305s] writing manifest file 'build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'
+[2.306s] running build
+[2.307s] running build_py
+[2.308s] running install
+[2.310s] running install_lib
+[2.313s] running install_data
+[2.314s] running install_egg_info
+[2.318s] removing '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.319s] Copying build/hand_tracking_pkg/hand_tracking_pkg.egg-info to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info
+[2.322s] running install_scripts
+[2.379s] Installing hand_tracking_node script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[2.380s] Installing img_publisher script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[2.381s] Installing img_subscriber script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[2.382s] writing list of installed files to '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log'
+[2.432s] Invoked command in '/home/yangjunseok/hand_tracking_pkg' returned '0': PYTHONPATH=/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/prefix_override:/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hand_tracking_pkg build --build-base /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/build install --record /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed

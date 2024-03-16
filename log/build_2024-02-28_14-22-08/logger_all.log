@@ -1,0 +1,91 @@
+[1.877s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.877s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8c7deb8c10>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8c7deb8c10>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8c7dec21c0>)
+[2.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.040s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yangjunseok/hand_tracking_pkg'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.187s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'hand_tracking_pkg'
+[2.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/yangjunseok/gcamp_ros2_ws/install
+[2.397s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yangjunseok/hand_tracking_pkg/install
+[2.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 343 installed packages in /opt/ros/foxy
+[2.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.935s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_args' from command line to 'None'
+[2.935s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_target' from command line to 'None'
+[2.935s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.935s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.935s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.936s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.936s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.936s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.936s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.936s] DEBUG:colcon.colcon_core.verb:Building package 'hand_tracking_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg', 'merge_install': False, 'path': '/home/yangjunseok/hand_tracking_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.939s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.014s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yangjunseok/hand_tracking_pkg' with build type 'ament_python'
+[3.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracking_pkg', 'ament_prefix_path')
+[3.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/ament_prefix_path.ps1'
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/ament_prefix_path.dsv'
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/ament_prefix_path.sh'
+[3.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.526s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yangjunseok/hand_tracking_pkg'
+[5.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangjunseok/hand_tracking_pkg': PYTHONPATH=/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/prefix_override:/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hand_tracking_pkg build --build-base /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/build install --record /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed
+[10.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangjunseok/hand_tracking_pkg' returned '0': PYTHONPATH=/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/prefix_override:/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hand_tracking_pkg build --build-base /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/build install --record /home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed
+[10.170s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg' for CMake module files
+[10.171s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg' for CMake config files
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib'
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/bin'
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/pkgconfig/hand_tracking_pkg.pc'
+[10.178s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages'
+[10.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracking_pkg', 'pythonpath')
+[10.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/pythonpath.ps1'
+[10.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/pythonpath.dsv'
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/pythonpath.sh'
+[10.201s] Level 1:colcon.colcon_core.environment:checking '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/bin'
+[10.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_tracking_pkg)
+[10.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/package.ps1'
+[10.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/package.dsv'
+[10.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/package.sh'
+[10.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/package.bash'
+[10.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/hand_tracking_pkg/package.zsh'
+[10.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/share/colcon-core/packages/hand_tracking_pkg)
+[10.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.244s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.299s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.390s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangjunseok/hand_tracking_pkg/install/local_setup.ps1'
+[10.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yangjunseok/hand_tracking_pkg/install/_local_setup_util_ps1.py'
+[10.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangjunseok/hand_tracking_pkg/install/setup.ps1'
+[10.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangjunseok/hand_tracking_pkg/install/local_setup.sh'
+[10.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yangjunseok/hand_tracking_pkg/install/_local_setup_util_sh.py'
+[10.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangjunseok/hand_tracking_pkg/install/setup.sh'
+[10.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangjunseok/hand_tracking_pkg/install/local_setup.bash'
+[10.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangjunseok/hand_tracking_pkg/install/setup.bash'
+[10.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangjunseok/hand_tracking_pkg/install/local_setup.zsh'
+[10.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangjunseok/hand_tracking_pkg/install/setup.zsh'

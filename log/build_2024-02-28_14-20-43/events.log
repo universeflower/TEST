@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (hand_tracking_pkg) JobQueued: {'identifier': 'hand_tracking_pkg', 'dependencies': OrderedDict()}
+[0.000428] (hand_tracking_pkg) JobStarted: {'identifier': 'hand_tracking_pkg'}
+[0.093598] (-) TimerEvent: {}
+[0.194414] (-) TimerEvent: {}
+[0.295336] (-) TimerEvent: {}
+[0.396212] (-) TimerEvent: {}
+[0.496811] (-) TimerEvent: {}
+[0.597582] (-) TimerEvent: {}
+[0.698254] (-) TimerEvent: {}
+[0.798967] (-) TimerEvent: {}
+[0.900357] (-) TimerEvent: {}
+[1.001169] (-) TimerEvent: {}
+[1.102027] (-) TimerEvent: {}
+[1.202644] (-) TimerEvent: {}
+[1.303112] (-) TimerEvent: {}
+[1.403760] (-) TimerEvent: {}
+[1.504466] (-) TimerEvent: {}
+[1.609065] (-) TimerEvent: {}
+[1.713539] (-) TimerEvent: {}
+[1.816111] (-) TimerEvent: {}
+[1.917969] (-) TimerEvent: {}
+[2.018592] (-) TimerEvent: {}
+[2.126125] (-) TimerEvent: {}
+[2.226824] (-) TimerEvent: {}
+[2.327683] (-) TimerEvent: {}
+[2.428406] (-) TimerEvent: {}
+[2.528918] (-) TimerEvent: {}
+[2.609540] (hand_tracking_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/hand_tracking_pkg', 'build', '--build-base', '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/build', 'install', '--record', '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log', '--install-scripts', '$base/lib/hand_tracking_pkg', '--single-version-externally-managed'], 'cwd': '/home/yangjunseok/hand_tracking_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'yangjunseok', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1151', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/yangjunseok', 'OLDPWD': '/home/yangjunseok', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '822', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'yangjunseok', 'JOURNAL_STREAM': '8:32356', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yangjunseok', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/yangjunseok-VirtualBox:@/tmp/.ICE-unix/1189,unix/yangjunseok-VirtualBox:/tmp/.ICE-unix/1189', 'INVOCATION_ID': '99269abfd3bd48e1b3c86b4ae7532576', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e0da906_7417_4145_83e0_4f9270658fa2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/prefix_override:/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages:'}, 'shell': False}
+[2.629589] (-) TimerEvent: {}
+[2.732398] (-) TimerEvent: {}
+[2.833212] (-) TimerEvent: {}
+[2.933997] (-) TimerEvent: {}
+[3.034541] (-) TimerEvent: {}
+[3.135163] (-) TimerEvent: {}
+[3.235767] (-) TimerEvent: {}
+[3.336639] (-) TimerEvent: {}
+[3.437536] (-) TimerEvent: {}
+[3.538247] (-) TimerEvent: {}
+[3.606316] (hand_tracking_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.608595] (hand_tracking_pkg) StdoutLine: {'line': b'writing build/hand_tracking_pkg/hand_tracking_pkg.egg-info/PKG-INFO\n'}
+[3.609616] (hand_tracking_pkg) StdoutLine: {'line': b'writing dependency_links to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/dependency_links.txt\n'}
+[3.610587] (hand_tracking_pkg) StdoutLine: {'line': b'writing entry points to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/entry_points.txt\n'}
+[3.611800] (hand_tracking_pkg) StdoutLine: {'line': b'writing requirements to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/requires.txt\n'}
+[3.612519] (hand_tracking_pkg) StdoutLine: {'line': b'writing top-level names to build/hand_tracking_pkg/hand_tracking_pkg.egg-info/top_level.txt\n'}
+[3.638382] (-) TimerEvent: {}
+[3.738949] (-) TimerEvent: {}
+[3.740954] (hand_tracking_pkg) StdoutLine: {'line': b"reading manifest file 'build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'\n"}
+[3.744519] (hand_tracking_pkg) StdoutLine: {'line': b"writing manifest file 'build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'\n"}
+[3.745511] (hand_tracking_pkg) StdoutLine: {'line': b'running build\n'}
+[3.745918] (hand_tracking_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.747064] (hand_tracking_pkg) StdoutLine: {'line': b'running install\n'}
+[3.749235] (hand_tracking_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.753598] (hand_tracking_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.755491] (hand_tracking_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.759906] (hand_tracking_pkg) StdoutLine: {'line': b"removing '/home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.761095] (hand_tracking_pkg) StdoutLine: {'line': b'Copying build/hand_tracking_pkg/hand_tracking_pkg.egg-info to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info\n'}
+[3.763491] (hand_tracking_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.835148] (hand_tracking_pkg) StdoutLine: {'line': b'Installing hand_tracking_node script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg\n'}
+[3.836405] (hand_tracking_pkg) StdoutLine: {'line': b'Installing img_publisher script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg\n'}
+[3.837469] (hand_tracking_pkg) StdoutLine: {'line': b'Installing img_subscriber script to /home/yangjunseok/hand_tracking_pkg/install/hand_tracking_pkg/lib/hand_tracking_pkg\n'}
+[3.839159] (-) TimerEvent: {}
+[3.839646] (hand_tracking_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/yangjunseok/hand_tracking_pkg/build/hand_tracking_pkg/install.log'\n"}
+[3.940231] (hand_tracking_pkg) CommandEnded: {'returncode': 0}
+[3.942091] (-) TimerEvent: {}
+[4.024391] (hand_tracking_pkg) JobEnded: {'identifier': 'hand_tracking_pkg', 'rc': 0}
+[4.026768] (-) EventReactorShutdown: {}
